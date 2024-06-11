@@ -1,0 +1,27 @@
+This dataset contains information about individuals participating in sports events, including their name, sex, age, height, weight, team, year, season, host city, host country, sport, event, and various economic indicators.
+
+The columns are date column is of type TIMESTAMP and cannot be null. The mode, category, subcategory, note, income_expense, and currency columns are of type VARCHAR with a specified length, each having a default value and cannot be null. The Amount column is of type DECIMAL(10, 2) with a default value of 0.00 and cannot be null.
+
+Data Columns
+Name: Name of the participant.
+Sex: Gender of the participant (M/F).
+Age: Age of the participant at the time of the event.
+Height: Height of the participant (in cm).
+Weight: Weight of the participant (in kg).
+Team: Team representing the participant.
+Year: Year of the sports event.
+Season: Season of the sports event (Summer/Winter).
+Host City: City hosting the sports event.
+Host Country: Country hosting the sports event.
+Sport: Sport in which the participant is competing.
+Event: Specific event within the sport.
+GDP Per Capita Constant LCU Value: GDP per capita in constant local currency units at the time of the event.
+Cereal Yield kg per hectare Value: Cereal yield per hectare in kg at the time of the event.
+Military Expenditure Current LCU Value: Military expenditure in current local currency units at the time of the event.
+Tax Revenue Current LCU Value: Tax revenue in current local currency units at the time of the event.
+Expense Current LCU Value: Government expense in current local currency units at the time of the event.
+Central Government Debt Total Current LCU Value: Total central government debt in current local currency units at the time of the event.
+Representing Host: Whether the participant is representing the host country (1 if yes, 0 if no).
+Avg Temp: Average temperature at the time of the event.
+Medal: Medal won by the participant (Gold/Silver/Bronze).
+Medal Binary: Binary indicator of whether the participant won a medal (1 if won, 0 if not).
